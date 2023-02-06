@@ -59,7 +59,7 @@ const startDeleteMovieHandler = movieId => {
   confirmDeletionButton = deleteMovieModal.querySelector('.btn--danger');
 
   // confirmDeletionButton.removeEventListener('click', deleteMovieHandler.bind(null, movieId)); // will not work :(
-    
+
   cancelDeletionButton.removeEventListener('click', closeMovieDeletionModal);
 
   cancelDeletionButton.addEventListener('click', closeMovieDeletionModal);
@@ -123,7 +123,7 @@ const addMovieHandler = () => {
     +ratingValue < 1 ||
     +ratingValue > 5
   ) {
-    alert('Please enter valid values (rating between 1 and 5).');
+    alert('Please insert a Name, an Image address, and a rating between 1 and 5.');
     return;
   }
 
