@@ -38,23 +38,39 @@
 // push always adds in the end of the array. 
 // unshift will add in the beginning of the array. I can't use it in my project, because I want the attendant can call one patient of each queue.
 
-const hobbies = ['Sports', 'Cooking']
-hobbies.push('Eating')
-hobbies.push('Reading')
-hobbies.unshift('Coding')
+// const hobbies = ['Sports', 'Cooking']
+// hobbies.push('Eating')
+// hobbies.push('Reading')
+// hobbies.unshift('Coding')
 
-const poppedValue = hobbies.pop();
-hobbies.shift()
+// const poppedValue = hobbies.pop();
+// hobbies.shift()
 
-console.log(hobbies[0]);
-console.log(hobbies[0]);
+// console.log(hobbies[0]);
+// console.log(hobbies[0]);
 
-hobbies[0] = 'Holly'
+// hobbies[0] = 'Holly'
 
-console.log(hobbies[0]);
-console.log(hobbies[0]);
+// console.log(hobbies[0]);
+// console.log(hobbies[0]);
 
-hobbies.splice(0, 1)
+// hobbies.splice(0, 1)
 
-console.log(hobbies[0]);
-console.log(hobbies[0]);
+// console.log(hobbies[0]);
+// console.log(hobbies[0]);
+
+
+// const testResults = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H','I']
+// const copy = testResults.slice(1,3)
+
+// testResults.push('Z')
+
+// console.log(copy, testResults);
+
+
+
+
+
+// testResults.push(5.91)
+
+
