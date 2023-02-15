@@ -1,0 +1,19 @@
+// const person = {
+//     name: 'Felipe',
+//     age: '36',
+//     hobbies: ['Sports', 'Cooking']
+// }
+
+// person.taste = 'Holly'
+
+// console.log(person);
+
+// delete person.taste
+
+// console.log(person, person.taste);
+
+const propKey = 'field 12';
+const person = {
+    [propKey]: 'Max'
+};
+console.log(person['field 12']);
